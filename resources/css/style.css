@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
 }
 
+/* Header styling */
 header {
   height: 69px;
   width: 100%;
@@ -40,6 +41,8 @@ header {
   color: SeaShell;
 }
 
+/* Mission section styling */
+
 #mission {
   display: flex;
   height: 700px;
@@ -54,15 +57,33 @@ header {
   background-color: black;
 }
 
+/* Tea of the Month section styling */
+
 #month {
-  display: flex;
   width: 1000px;
   margin: 0 auto;
+}
+
+#month-images {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#month img {
+.month-entry img {
+  width: 300px;
+  height: 200px;
+}
 
+.month-entry h4 {
+  margin-top: 0;
+}
+
+#center-top {
+  padding: 0 3%;
+}
+
+#bottom-left {
+  padding-right: 3%;
 }
