@@ -9,6 +9,8 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  width: 1260px;
+  margin: 0 auto;
 }
 
 header {
@@ -16,6 +18,7 @@ header {
   width: 100%;
   display: fixed;
   border-bottom: 1px solid SeaShell;
+  z-index: 1;
 }
 
 #header {
@@ -34,15 +37,32 @@ header {
 
 #header nav a {
   padding: 10px;
+  color: SeaShell;
 }
 
-.mission {
+#mission {
   display: flex;
   height: 700px;
-  width: 90%;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+  flex-direction: column;
+  justify-content: center;
 }
 
-.month {
+#mission-text {
+  background-color: black;
+}
+
+#month {
   display: flex;
   width: 1000px;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#month img {
+
 }
